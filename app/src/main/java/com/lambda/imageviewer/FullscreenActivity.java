@@ -28,7 +28,7 @@ import android.widget.Toast;
  * status bar and navigation/system bar) with user interaction.
  */
 public class FullscreenActivity extends AppCompatActivity {
-    public static final int REQUEST_CODE = REQUEST_CODE;
+    //public static final int REQUEST_CODE = REQUEST_CODE;
     /**
      * Whether or not the system UI should be auto-hidden after
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
@@ -275,7 +275,7 @@ public class FullscreenActivity extends AppCompatActivity {
         // 渡したいデータとキーを指定する
         intent.putExtra("COMING_BACK","I am back");
         // 遷移先の画面を呼び出す
-        startActivityForResult(intent,REQUEST_CODE);
+      //  startActivityForResult(intent,REQUEST_CODE);
 
 
     }

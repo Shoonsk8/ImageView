@@ -150,6 +150,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    //comment
+
     private void PrecessOnResuming(){
   //      setContentView(R.layout.activity_main);
         LinearLayout ll = findViewById(R.id.scrolling_view);
